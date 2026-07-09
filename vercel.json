@@ -1,5 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/api/order", "destination": "/api/order.js" }
-  ]
+  "version": 2,
+  "functions": {
+    "api/order.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
